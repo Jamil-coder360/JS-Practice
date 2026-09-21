@@ -50,3 +50,13 @@ function main(arr) {
 
 console.log(main([4, 7, 1, 9, 2,0]));
 
+const allnumber= [3, 2,4,5,9,1];
+const evenodd=(num) =>{
+    if(num%2 ==0){
+        return "even";
+    }
+    else{
+        return "odd";
+    }
+}
+console.log(allnumber.map(evenodd));
