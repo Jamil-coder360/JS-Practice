@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body
+    style="
+    position: relative;
+      backgroundcolor: #d32828;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    "
+  >
+    <h3
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: full;
+      "
+    >
+      Login From
+    </h3>
+    <form
+      id="form"
+      onsubmit="submit"
+      action=""
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        width: 500px;
+        box-sizing: border-box;
+        box-shadow: 1px 0px 4px rgb(9, 9, 9);
+      "
+    >
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          font-size: 18px;
+          font-family:
+            &quot;Franklin Gothic Medium&quot;, &quot;Arial Narrow&quot;, Arial,
+            sans-serif;
+          text-decoration: none;
+        "
+      >
+        <label for="text">Enter your Name</label>
+        <input
+          style="
+            outline: none;
+            border-radius: 10px;
+            border: 2px solid rgb(6, 212, 253);
+            padding: 5px 20px;
+          "
+          type="text"
+          name="text"
+          id="text"
+        />
+      </div>
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          font-size: 18px;
+          font-family:
+            &quot;Franklin Gothic Medium&quot;, &quot;Arial Narrow&quot;, Arial,
+            sans-serif;
+          text-decoration: none;
+        "
+      >
+        <label for="text">Enter your Email</label>
+        <input
+          style="
+            outline: none;
+            border-radius: 10px;
+            border:
+              2px,
+              solid rgb(6, 212, 253);
+            padding: 5px 20px;
+          "
+          type="email"
+          name="email"
+          id="email"
+        />
+      </div>
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          font-size: 18px;
+          font-family:
+            &quot;Franklin Gothic Medium&quot;, &quot;Arial Narrow&quot;, Arial,
+            sans-serif;
+          text-decoration: none;
+        "
+      >
+        <label for="password">Enter your Password</label>
+        <input
+          style="
+            outline: none;
+            border-radius: 10px;
+            border: 2px solid rgb(6, 212, 253);
+            padding: 5px 20px;
+          "
+          type="password"
+          name="password"
+          id="password"
+        />
+        <span id="show">show</span>
+        <span id="hide" style="display: none; position: absolute; ">hide</span>
+      </div>
+      <div id="action" class="action">
+      </div>
+     
+      <button
+        type="submit"
+        style="
+      
+          background-color: beige;
+          border: 1px solid gray;
+          padding: 10px 20px;
+          border-radius: 10px;
+        "
+      >
+        Submit
+      </button>
+    </form>
+    <script src="./login.js"></script>
+  </body>
+</html>
